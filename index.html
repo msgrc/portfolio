@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>404 | Coming Soon</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+        }
+
+        body {
+            background: #0F1020;
+            color: #ffffff;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+        }
+
+        .page {
+            width: 100%;
+            min-height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            overflow: hidden;
+        }
+
+        .banner {
+            width: 100%;
+            line-height: 0;
+        }
+
+        .banner img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            width: 90%;
+            max-width: 900px;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            margin: 10px 0 20px;
+
+            color: #00D4FF;
+
+            font-size: clamp(24px, 4vw, 38px);
+            letter-spacing: 1px;
+        }
+
+        .message {
+            color: #B8B8D1;
+
+            font-size: clamp(16px, 2vw, 20px);
+
+            line-height: 1.7;
+
+            margin: 0 auto;
+        }
+
+        .coming-soon {
+            margin-top: 25px;
+
+            color: #FF4ECD;
+
+            font-size: clamp(20px, 3vw, 28px);
+
+            font-weight: 700;
+        }
+
+        .themes {
+            margin-top: 35px;
+
+            color: #6C63FF;
+
+            font-size: clamp(14px, 2vw, 18px);
+
+            font-weight: 600;
+
+            line-height: 2;
+        }
+
+        .footer-text {
+            margin-top: 30px;
+
+            color: #777799;
+
+            font-size: 14px;
+        }
+
+        .github {
+            display: inline-block;
+
+            margin-top: 25px;
+
+            padding: 10px 22px;
+
+            border: 1px solid #6C63FF;
+
+            border-radius: 25px;
+
+            color: #ffffff;
+
+            text-decoration: none;
+
+            transition:
+                background 0.3s ease,
+                border-color 0.3s ease;
+        }
+
+        .github:hover {
+            background: #6C63FF;
+            border-color: #00D4FF;
+        }
+
+        @media (max-width: 600px) {
+
+            .content {
+                padding: 25px 15px;
+            }
+
+            .themes {
+                line-height: 2.4;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="page">
+
+
+    <!-- Top Banner -->
+
+    <div class="banner">
+
+        <img
+            src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:00D4FF,100:FF4ECD&height=250&section=header&text=404&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=42"
+            alt="404"
+        >
+
+    </div>
+
+
+    <!-- Main Content -->
+
+    <main class="content">
+
+        <h2>
+            🚧 PAGE UNDER CONSTRUCTION
+        </h2>
+
+        <p class="message">
+            The content you're looking for isn't here yet.
+        </p>
+
+        <p class="coming-soon">
+            Coming Soon
+        </p>
+
+
+        <div class="themes">
+
+            ⚡ BUILD
+            &nbsp; · &nbsp;
+
+            🧠 EVOLVE
+            &nbsp; · &nbsp;
+
+            🛡️ EXPLORE
+            &nbsp; · &nbsp;
+
+            🌌 CREATE
+
+        </div>
+
+
+        <p class="footer-text">
+            Building something worth coming back for.
+        </p>
+
+
+        <a
+            class="github"
+            href="https://github.com/msgrc"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            View GitHub
+        </a>
+
+    </main>
+
+
+    <!-- Bottom Banner -->
+
+    <div class="banner">
+
+        <img
+            src="https://capsule-render.vercel.app/api?type=waving&color=0:FF4ECD,50:00D4FF,100:6C63FF&height=150&section=footer"
+            alt=""
+        >
+
+    </div>
+
+
+</div>
+
+</body>
+
+</html>
